@@ -1,0 +1,39 @@
+
+/* Welcome Page */
+.welcome-page {
+  height: 100vh;
+  background: linear-gradient(135deg, #0a8f6a, #0fb88a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-page h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.welcome-page h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.enter-btn {
+  background: #1e88e5;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+  background: #1565c0;
+}
